@@ -1,11 +1,9 @@
-fn main() {
-    fn sample(one:i32 , two:i32){
-        println!("one is {} and two is {}", one, two)
-    }
-    fn sample_1(one:i32 , two:i32)-> i32{
-        return one + two;
-    }
-    fn sample_2(one:i32 , two:i32)-> i32{
-        one +two
+fn main(){
+    let mut scores: = std::collections::HashMap::new();
+    scores.insert(String::from("Blue")10);
+    scores.insert(String::from("Yellow"), v:50);
+
+    for elem: (String, i32)in scores{
+        println!("Hello{:?}",elem)
     }
 }
